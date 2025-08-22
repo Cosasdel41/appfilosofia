@@ -1,7 +1,7 @@
 {
-  "name": "Profesorado de Biología",
-  "short_name": "Prof. Biología",
-  "description": "Seguimiento de materias y correlatividades del profesorado de Biología.",
+  "name": "Profesorado de Filosofía",
+  "short_name": "Prof. Filosofía",
+  "description": "Seguimiento de materias y correlatividades del profesorado de Filosofía.",
   "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",
