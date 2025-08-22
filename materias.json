@@ -47,7 +47,7 @@
     {
       "id": 5,
       "anio": "1ro",
-      "nombre": "Introducción a la Física y elementos de astronomía",
+      "nombre": "Introducción a las problemáticas filosóficas",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
@@ -58,7 +58,7 @@
     {
       "id": 6,
       "anio": "1ro",
-      "nombre": "Química y la Act. experimental 1",
+      "nombre": "Filosofía de la Cultura",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
@@ -69,7 +69,7 @@
     {
       "id": 7,
       "anio": "1ro",
-      "nombre": "Introducción a los sistemas biológicos",
+      "nombre": "Lógica y Teorías de la Argumentación",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
@@ -80,7 +80,7 @@
     {
       "id": 8,
       "anio": "1ro",
-      "nombre": "Matemática y Ciencias Naturales",
+      "nombre": "Problemas de Filosofía Antigua",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
@@ -115,29 +115,7 @@
     {
       "id": 11,
       "anio": "2do",
-      "nombre": "Psicología del aprendizaje",
-      "regimen": "Anual",
-      "formato": "Asignatura",
-      "prerrequisitos": {
-        "requiresCursada": [],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 12,
-      "anio": "2do",
-      "nombre": "Análisis de las instituciones educativas",
-      "regimen": "Cuatrimestral",
-      "formato": "Asignatura",
-      "prerrequisitos": {
-        "requiresCursada": [],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 13,
-      "anio": "2do",
-      "nombre": "Pensamiento político pedagógico latinoamericano",
+      "nombre": "Pensamiento Político Pedagógico Latinoamericano",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
@@ -148,20 +126,36 @@
       }
     },
     {
+      "id": 12,
+      "anio": "2do",
+      "nombre": "Psicología del Aprendizaje",
+      "regimen": "Anual",
+      "formato": "Asignatura",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 13,
+      "anio": "2do",
+      "nombre": "Análisis de las Instituciones Educativas",
+      "regimen": "Anual",
+      "formato": "Asignatura",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
       "id": 14,
       "anio": "2do",
-      "nombre": "Didáctica de las Ciencias naturales",
+      "nombre": "Filosofía de la enseñanza filosófica",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          {
-            "anyOf": [
-              5,
-              6,
-              7
-            ]
-          }
+          5
         ],
         "requiresAcreditar": []
       }
@@ -169,39 +163,34 @@
     {
       "id": 15,
       "anio": "2do",
-      "nombre": "Fisico química de Sistemas Biológicos",
+      "nombre": "Antropología Filosófica",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
-        "requiresCursada": [
-          5,
-          6
-        ],
+        "requiresCursada": [],
         "requiresAcreditar": []
       }
     },
     {
       "id": 16,
       "anio": "2do",
-      "nombre": "Introducción a la Biología Celular y Molecular",
+      "nombre": "Filosofía de la ciencia y la tecnología",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
-        "requiresCursada": [
-          7
-        ],
+        "requiresCursada": [],
         "requiresAcreditar": []
       }
     },
     {
       "id": 17,
       "anio": "2do",
-      "nombre": "Fundamentos de Evolución y Biodiversidad",
+      "nombre": "Problemas de filosofía medieval",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          7
+          8
         ],
         "requiresAcreditar": []
       }
@@ -209,9 +198,9 @@
     {
       "id": 18,
       "anio": "2do",
-      "nombre": "Ciencias de la tierra",
+      "nombre": "Concepciones de la democracia y la ciudadanía",
       "regimen": "Cuatrimestral",
-      "formato": "Taller",
+      "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
           6,
@@ -223,46 +212,35 @@
     {
       "id": 19,
       "anio": "2do",
-      "nombre": "Educación Ambiental",
-      "regimen": "Cuatrimestral",
-      "formato": "Taller",
-      "prerrequisitos": {
-        "requiresCursada": [
-          7
-        ],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 20,
-      "anio": "2do",
       "nombre": "Práctica Docente II",
       "regimen": "Anual",
       "formato": "Taller y Terreno",
       "prerrequisitos": {
-        "requiresCursada": [],
+        "requiresCursada": [
+          7
+        ],
         "requiresAcreditar": [
           2,
-          7,
+          5,
           9
         ]
       }
     },
     {
-      "id": 21,
-      "anio": "3ro",
-      "nombre": "Política educativa argentina",
+      "id": 20,
+      "anio": "2do",
+      "nombre": "Política Educativa Argentina",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
-        "requiresCursada": [
-          13
-        ],
-        "requiresAcreditar": []
+        "requiresCursada": [],
+        "requiresAcreditar": [
+          11
+        ]
       }
     },
     {
-      "id": 22,
+      "id": 21,
       "anio": "3ro",
       "nombre": "Problemas filosóficos de la educación",
       "regimen": "Anual",
@@ -273,7 +251,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 22,
       "anio": "3ro",
       "nombre": "Trayectorias educativas de jóvenes y adultos",
       "regimen": "Cuatrimestral",
@@ -287,20 +265,27 @@
       }
     },
     {
-      "id": 24,
+      "id": 23,
       "anio": "3ro",
-      "nombre": "Didáctica de la Biología",
+      "nombre": "Didáctica de la Filosofía",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          {
-            "anyOf": [
-              14,
-              16,
-              17
-            ]
-          }
+          14
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 24,
+      "anio": "3ro",
+      "nombre": "Filosofía argentina y latinoamericana",
+      "regimen": "Anual",
+      "formato": "Asignatura",
+      "prerrequisitos": {
+        "requiresCursada": [
+          6
         ],
         "requiresAcreditar": []
       }
@@ -308,12 +293,11 @@
     {
       "id": 25,
       "anio": "3ro",
-      "nombre": "Química Biológica",
+      "nombre": "Filosofía del conocimiento",
       "regimen": "Anual",
-      "formato": "Taller",
+      "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          15,
           16
         ],
         "requiresAcreditar": []
@@ -322,42 +306,34 @@
     {
       "id": 26,
       "anio": "3ro",
-      "nombre": "Biología de Plantas y Algas",
+      "nombre": "Ética",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
-        "requiresCursada": [
-          6,
-          17
-        ],
+        "requiresCursada": [],
         "requiresAcreditar": []
       }
     },
     {
       "id": 27,
       "anio": "3ro",
-      "nombre": "Biología de los Animales",
+      "nombre": "Metafísica",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
-        "requiresCursada": [
-          6,
-          17
-        ],
+        "requiresCursada": [],
         "requiresAcreditar": []
       }
     },
     {
       "id": 28,
       "anio": "3ro",
-      "nombre": "Biología Humana y Salud",
+      "nombre": "Problemas de filosofía moderna",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          3,
-          15,
-          16
+          17
         ],
         "requiresAcreditar": []
       }
@@ -365,35 +341,7 @@
     {
       "id": 29,
       "anio": "3ro",
-      "nombre": "Biología Celular",
-      "regimen": "Cuatrimestral",
-      "formato": "Asignatura",
-      "prerrequisitos": {
-        "requiresCursada": [
-          15,
-          16
-        ],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 30,
-      "anio": "3ro",
-      "nombre": "Biología de Microorganismos y Hongos",
-      "regimen": "Cuatrimestral",
-      "formato": "Asignatura",
-      "prerrequisitos": {
-        "requiresCursada": [
-          15,
-          16
-        ],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 31,
-      "anio": "3ro",
-      "nombre": "Práctica docente III",
+      "nombre": "Práctica Docente III",
       "regimen": "Anual",
       "formato": "Taller y Terreno",
       "prerrequisitos": {
@@ -410,21 +358,21 @@
           16,
           {
             "anyOf": [
-              16,
-              17
+              15,
+              18
             ]
           }
         ],
         "requiresAcreditar": [
           10,
-          11,
-          20
+          14,
+          19
         ]
       }
     },
     {
-      "id": 32,
-      "anio": "4to",
+      "id": 30,
+      "anio": "3ro",
       "nombre": "Reflexión filosófico-política de la práctica docente",
       "regimen": "Anual",
       "formato": "Asignatura",
@@ -433,16 +381,16 @@
           22
         ],
         "requiresAcreditar": [
-          31
+          29
         ]
       }
     },
     {
-      "id": 33,
-      "anio": "4to",
+      "id": 31,
+      "anio": "3ro",
       "nombre": "Derechos, interculturalidad y ciudadanía",
       "regimen": "Cuatrimestral",
-      "formato": "Taller",
+      "formato": "Seminario",
       "prerrequisitos": {
         "requiresCursada": [
           2
@@ -451,9 +399,9 @@
       }
     },
     {
-      "id": 34,
+      "id": 32,
       "anio": "4to",
-      "nombre": "EOI I",
+      "nombre": "Espacio de Opción Institucional I",
       "regimen": "Cuatrimestral",
       "formato": "Taller",
       "prerrequisitos": {
@@ -462,15 +410,44 @@
       }
     },
     {
-      "id": 35,
+      "id": 33,
       "anio": "4to",
-      "nombre": "Historia y Epistemología de la Biología",
+      "nombre": "Taller sobre enseñanza de la filosofía en la escuela secundaria",
+      "regimen": "Anual",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          24
+        ],
+        "requiresAcreditar": [
+          30
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "anio": "4to",
+      "nombre": "La filosofía y el presente: género, ambiente y digitalización",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          3,
-          17
+          25,
+          29
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 35,
+      "anio": "4to",
+      "nombre": "Filosofía de la historia",
+      "regimen": "Anual",
+      "formato": "Asignatura",
+      "prerrequisitos": {
+        "requiresCursada": [
+          27,
+          28
         ],
         "requiresAcreditar": []
       }
@@ -478,13 +455,12 @@
     {
       "id": 36,
       "anio": "4to",
-      "nombre": "Evolución",
+      "nombre": "Filosofía política",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          17,
-          18,
+          27,
           29
         ],
         "requiresAcreditar": []
@@ -493,28 +469,24 @@
     {
       "id": 37,
       "anio": "4to",
-      "nombre": "Genética",
+      "nombre": "Estética",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
-        "requiresCursada": [
-          17,
-          25,
-          29
-        ],
+        "requiresCursada": [],
         "requiresAcreditar": []
       }
     },
     {
       "id": 38,
       "anio": "4to",
-      "nombre": "Ecología",
+      "nombre": "Problemas de filosofía contemporánea",
       "regimen": "Anual",
       "formato": "Asignatura",
       "prerrequisitos": {
         "requiresCursada": [
-          17,
-          18
+          28,
+          29
         ],
         "requiresAcreditar": []
       }
@@ -522,50 +494,20 @@
     {
       "id": 39,
       "anio": "4to",
-      "nombre": "Didáctica de la Biología e Investigación Educativa",
-      "regimen": "Anual",
-      "formato": "Ateneo",
+      "nombre": "Taller de investigación en filosofía",
+      "regimen": "Cuatrimestral",
+      "formato": "Taller",
       "prerrequisitos": {
         "requiresCursada": [
           24
         ],
-        "requiresAcreditar": [
-          31
-        ]
+        "requiresAcreditar": []
       }
     },
     {
       "id": 40,
       "anio": "4to",
-      "nombre": "Educación y Salud",
-      "regimen": "Cuatrimestral",
-      "formato": "Taller",
-      "prerrequisitos": {
-        "requiresCursada": [
-          23,
-          27
-        ],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 41,
-      "anio": "4to",
-      "nombre": "Problemáticas socioambientales",
-      "regimen": "Cuatrimestral",
-      "formato": "Taller",
-      "prerrequisitos": {
-        "requiresCursada": [
-          14,
-          18
-        ],
-        "requiresAcreditar": []
-      }
-    },
-    {
-      "id": 42,
-      "anio": "4to",
-      "nombre": "EOI II",
+      "nombre": "Espacio de Opción Institucional II",
       "regimen": "Cuatrimestral",
       "formato": "Taller",
       "prerrequisitos": {
@@ -574,22 +516,13 @@
       }
     },
     {
-      "id": 43,
+      "id": 41,
       "anio": "4to",
-      "nombre": "Práctica docente IV",
+      "nombre": "Práctica Docente IV",
       "regimen": "Anual",
       "formato": "Taller y Terreno",
       "prerrequisitos": {
         "requiresCursada": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
           10,
           11,
           12,
@@ -600,45 +533,24 @@
           17,
           18,
           19,
-          20,
-          27
+          27,
+          29
         ],
         "requiresAcreditar": [
           23,
           24,
-          31
+          30
         ]
       }
     },
     {
-      "id": 44,
-      "anio": null,
+      "id": 42,
+      "anio": "4to",
       "nombre": "Unidad Curricular Optativa",
-      "regimen": null,
-      "formato": null,
+      "regimen": "Anual",
+      "formato": "Taller",
       "prerrequisitos": {
-        "requiresCursada": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20
-        ],
+        "requiresCursada": [],
         "requiresAcreditar": []
       }
     }
